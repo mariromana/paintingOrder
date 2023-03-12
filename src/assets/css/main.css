@@ -722,6 +722,11 @@ h4 {
   background: url('../img/sizes-bg.jpg') no-repeat center;
   background-size: cover;
 }
+
+.status {
+  text-align: center;
+}
+
 .sizes h2,
 .sizes .p-heading {
   text-align: center;
