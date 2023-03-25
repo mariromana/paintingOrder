@@ -30,6 +30,8 @@ const drop = () => {
         item.closest('.file_upload').style.border = "none";
         if (item.closest('.calc_form')) {
             item.closest('.file_upload').style.backgroundColor = "#fff";
+        } else if (item.closest('.file_start')) {
+            item.closest('.file_upload').style.backgroundColor = "#f4e9e7";
         } else {
             item.closest('.file_upload').style.backgroundColor = "#ededed";
         }
